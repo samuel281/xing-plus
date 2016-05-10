@@ -92,7 +92,7 @@ class Real(threading.Thread):
             ::
                 real.removeAllTargets()
         """
-        self.real.UnAdviseRealDataWithKey(key)
+        self.real.UnadviseRealDataWithKey(key)
 
     def run(self):
         """실시간 TR을 모니터링 한다
